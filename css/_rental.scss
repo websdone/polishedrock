@@ -1,0 +1,60 @@
+.rental {
+	.rental {
+	    background-color: #fff;
+	    z-index: 99999;
+	    position: relative;
+	    max-width: 1024px;
+	    margin: 25px auto 25px;
+	    height: auto;
+	    padding-bottom: 10px;
+	    box-shadow: 0px 1.5px 5px #444444;
+	    float: left;
+	    width: 100%;
+	}
+	a {
+		color: #000 !important;
+	}
+	img {
+		display: inline-block;
+		&.touchScreen {
+			margin-right: 24%;
+		    padding-top: 45px;
+		    width: 27%;
+		    margin-left: 40%;
+		}
+	}
+
+	a.collapse-link { 
+		margin: 0 auto;
+        width: 54%;
+        text-align: center;
+    	display: block;
+    }
+
+	article {
+		float: right;
+	    width: 62%;
+	    margin-right: 8%;
+    	p {
+			margin-bottom: 20px
+		}
+	}
+	.rental-img {
+		width: 25%;
+	    margin-left: 25px;
+	    display: inline-block;
+	    margin-top: -69px;
+    	padding-bottom: 6px;
+	}
+	
+	b {
+		display: block;
+	}
+	a.link-rental {
+		font-weight: bold;
+		color: #000 !important;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

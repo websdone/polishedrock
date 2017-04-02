@@ -1,0 +1,448 @@
+
+
+// MAIN BRAKE POINT
+@media (min-width: 600px) {
+	video {
+		visibility: visible;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop, .nav.header {
+		display: block;
+	}
+
+	footer.desktop {
+	    background-color: rgba(0, 0, 0, 0.8);
+	    width: 100%;
+	    clear: both;
+	    padding-bottom: 20px;
+	    line-height: 23px;
+	    ul {
+	        width: 25%;
+	        margin: 30px auto;
+	    }
+	    p {
+	        clear: both;
+	        text-align: center;
+	        &:first-child {
+	            padding-top: 25px;
+	        }
+	    } 
+	}
+	.contact .email {
+	    float: right;
+	}
+	.spec {
+		margin-top: 20px;
+		div {
+			padding: 10px 20px 10px 10px;
+		}
+	}
+}
+
+
+// mobile from iphone 6
+@media (max-width: 667px) {
+	body {
+	    background-color: #dcdcdc;
+	    overflow-x: hidden;
+	}
+	.home.home-bg {
+	    transition: 1s opacity;
+	    background: url(../img/software.png) no-repeat center center fixed; 
+	      background-size: 100% 100%;
+	}
+	.bg-dots {
+		margin: 92px 0 -4px 0;
+	}
+	.desktop {
+		display: none;
+	}
+	.hardware .bespoke {
+	    top: 130px;
+	        z-index: 1;
+	}
+	.main-block p {
+		font-size: 5vw;
+		line-height: 29px;
+	}
+	.accordion-body {
+	    img {
+	        max-width: 72px !important;
+    		margin: 1px -13px 18px 17px !important;
+    		display: inline-block !important;
+	    }
+	}
+	.hardware .content.software-bespoke {
+	    margin: 79px auto 0;
+	}
+	.tab-pane.active {
+		 margin-top: 15px;
+	}
+	p.price { 
+		bottom: -4px !important;
+	    right: 0px !important;
+	    font-size: 0.9em !important;
+	}
+	.mobile.map {
+		position: absolute;
+	    top: 89px;
+	    width: 100%;
+	    max-height: 160px;
+	}
+	video, .fullscreen-bg {
+		visibility: hidden;
+		display: none;
+	}
+	article {
+		padding: 21px;
+	}
+	.home {
+		margin: 119px auto 0;
+		.main-block {
+			margin-bottom: 0;
+	    	padding-bottom: 24px;
+	    	nav {
+	    		width: auto;
+	    	}
+		}
+		.home-block {
+			margin: 86px 4px 5% 4px;
+			 a {
+			    color: #000;
+			    font-size: 6vw;
+			}
+		}
+		article {
+			padding: 18px 23px 18;
+		}
+		.carousel-control {
+		    top: 92px;
+		}
+	}
+	.mobile {
+		.navbar-header {
+		    background-color: #fff;
+		    height: 91px;
+		    box-shadow: 0px 1.5px 5px #444444;
+		  }
+		  .navbar {
+		  	    width: 96%;
+		  }
+	}
+	.mobile .navbar-brand > img {
+	    display: block;
+	    padding: 3px 0 0;
+	    margin: 3px auto 15px;
+    	width: 109px;
+	}
+	.hardware {
+		h2 {
+		    font-size: 1.5rem;
+    		margin-top: 10px;
+    		line-height: 28px;
+		}
+		.accordion {
+	    	margin: 7px 0 12px;
+	    }
+	    select {
+	    	width: 45%;
+	    }
+	}
+	.hovereffect {
+		margin-bottom: 12px;
+		h2 {
+			font-size: 3rem;
+		    font-weight: normal;
+		    padding-top: 50px;
+		}
+	}
+	.carousel {
+	    margin: 15px 0 0px;
+	}
+	.content.home {
+		width: 91%;
+    	margin: 17% auto 0;
+	}
+	.contact .form {
+		width: 94%;
+	}
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+	.content {
+		width: 94%; 
+		height: auto;
+	}
+	.contactImg {
+		display: none;
+	}
+	.contact form {
+	    padding-bottom: 30px;
+	}
+
+	.hardware {
+		h1 {
+		    font-size: 1.5rem !important;
+		    background-color: rgba(255, 255, 255, 1);
+    		z-index: 1;
+    		top: 69px;
+		}
+		.content {
+			width: 94%;
+		}
+		.col-md-5, .col-md-4, .col-md-3 {
+			padding: 0px 20px 0 !important;
+		}
+		.formSend .col-md-5 {
+			    padding: 0 !important;
+		}
+		.contact .contact {
+		    margin-top: 0 !important;
+		}
+		.accordion-inner {
+			padding-bottom: 10px;
+		}
+		.pagination {
+			top: 75px;
+			z-index: 29;
+			padding: 8px 0 8px 0;
+			.prev, .next {
+				font-size: 1.2em;
+    			top: 106px;
+			}
+			a {
+			    font-size: 1.2em;
+			}
+			.page_current, .hardware .pagination a {
+			    color: #fff;
+			    font-size: 1.2em;
+			}
+		}
+		.pagination .next {
+			right: 12px;
+		}
+		.pagination .prev {
+			left: 12px;
+		}
+		.tab-content {
+		    padding-top: 25px;
+		    z-index: 0;
+    		position: relative;
+		}
+		 a.download {
+		 	margin: 8px 0 15px 0;
+		 }
+	}
+	.shortBG {
+	    position: absolute;
+    	top: 49px;
+	    z-index: -1;
+	    height: auto !important;
+	    width: 100%;
+	}
+	.heading-silent {
+	    display: block !important;
+	    height: 102px;
+	}
+	.rental {
+		margin-top: -86px;
+		h1 {
+			font-size: 1.2rem !important;
+		}
+	}
+	.rental .rental-img {
+		display: none  !important;
+	}
+	.rental article {
+	    float: none;
+	    width: 87%;
+	    text-align: left;
+	    margin: 0 auto;
+	    padding-top: 0;
+	}
+	.rental .rental {
+		margin: 106px auto 31px;
+		float: none;
+	}
+	.rental a.collapse-link {
+	    width: auto;
+    	text-align: center;	
+	}
+	.mobile nav.mobile a {
+		font-size: 1rem;
+    	font-weight: bold;
+	}
+
+    .hardware {
+    	.content {
+		    margin: 102px auto 0 !important;
+			position: relative;
+	    }
+	    &.contact {
+	    	margin-top: 0;
+	    }
+	    a.collapse-link {
+	    	font-size: 0.9rem;
+	    }
+		.block-hardware {
+			padding: 10px 10px 25px;
+			img {
+				display: block;
+			    max-width: 85%;
+			    width: auto;
+			    vertical-align: top;
+			    padding: 0;
+			    margin: 10px auto;
+			}
+		}
+		nav.secondary {
+	    	width: 100%;
+	    }
+		.block-hardware article {
+		    width: 100%;
+		    display: inline-block;
+		    text-align: left;
+		    margin: 0;
+		    padding: 0 9px;
+		}
+	}
+	.accordion-inner ul {
+		margin-top: 0;
+	}
+	.rental img.touchScreen {
+	    padding-top: 21px;
+	    width: 61%;
+	    margin: 10px auto;
+	    display: block;
+	}
+	.col-md-3.col-sm-6.col-xs-12 {
+		width: 23%;
+	}
+    .contact .google-maps {
+    	//height: 254px;
+    	top: -21px;
+    }
+    .contact {
+    	.content {
+		    margin: 228px auto 20px;
+		}
+		.pull-right, .pull-left {
+			float: none !important;
+    		clear: both;
+		}
+		form {
+			padding-top: 10px;
+		}
+		h1 {
+			padding: 14px 0 31px;
+			font-size: 1.8rem !important;
+		}
+	}
+	.contact .google-maps iframe {
+		height: 300px;
+	}
+	.software {
+		padding-top: 0px;
+		margin-top: 118px;
+		width: 88%;
+
+		.projects {
+			width: auto;
+    		margin: 0 auto 25px -10px;
+    		float: none;
+    		div {
+    			margin: 5px 2.5px 2px 2.5px;
+    			max-width: 31%;
+    		}
+    		img {
+    			max-width: 100%;
+    		}
+		}
+		.intro {
+			width: 95%;
+		    padding: 4px 0px 12px 0;
+		    margin: 0 auto;
+		    display: inline-block;
+		    float: none;
+		 }
+		 h2 {
+		    padding-bottom: 6px;
+		    font-size: 6.3vw;
+		}
+		 .hovereffect .overlay {
+		        width: 94%;
+			    height: 94%;
+			    padding: 3% 2px;
+			    margin-left: 3px;
+			    margin-top: 3px;
+		    p {
+		    	font-size: 0.88rem;
+		    	font-weight: normal;
+		    }
+		}
+	}
+    footer.mobile {
+	    background-color: rgba(0, 0, 0, 0.9);
+	    width: 100%;
+		text-align: center;
+		padding: 10px 0 31px;
+    	font-size: 0.9rem;
+    	line-height: 22px;
+	    p {
+	        clear: both;
+	        text-align: center;
+	        &:first-child {
+	            padding-top: 25px;
+	        }
+	    }
+	    ul {
+	    	width: 41%;
+		    margin: 30px auto;
+		    padding: 20px 0 50px;
+		    line-height: 21px;
+		    text-align: center;
+	    }
+	    .clear {
+	    	clear: both;
+	    }
+	    .address, .mail {
+	    	display: block;
+	    	clear: both;
+	    }
+	    .row {
+	    	margin-top: 12px;
+	    }
+	}
+	.modal-dialog {
+		max-width: 91% !important;
+	}
+	.modal.in .modal-dialog { 
+		margin: 141px 10px !important;
+	}
+	.ekko-lightbox-container { position:relative; min-height: 252px !important; }
+	.ekko-lightbox-item { max-height: 250px !important; margin: 0 auto; display: block; }
+
+}
+
+
+// iphone 5/5s portrait/landscape
+    .hovereffect .overlay p {
+      @media screen and (device-aspect-ratio: 40/71) {
+        	font-size: 0.77rem !important;
+	    	font-weight: normal !important;
+      }
+    }
+
+// iphone 5/5s portrait/landscape
+    .hovereffect .overlay p {
+      @media screen and (device-aspect-ratio: 375/667) {
+        	font-size: 0.88rem !important;
+	    	font-weight: bold !important;
+	    	padding-top: 21% !important;
+      }
+    }

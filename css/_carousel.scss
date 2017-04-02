@@ -1,0 +1,76 @@
+.carousel-control { width:  4%; }
+
+.carousel {
+	margin-bottom: 5%;
+    position: relative;
+    max-width: 1250px !important;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		 { left: -25%; }	
+}
+
+
+.arrow-right, .slick-prev.slick-arrow {
+    // border-top: 20px solid transparent;
+    // border-bottom: 20px solid transparent;
+    position: absolute;
+    right: 1px;
+    content: ">";
+}
+.slick-next.slick-arrow {
+    // border-top: 20px solid transparent;
+    // border-bottom: 20px solid transparent;
+    position: absolute;
+    left: 1px;
+    content: "<";
+}
+.slick-arrow {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    opacity: .5;
+    z-index: 999999;
+    text-indent: -99999px;
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0%,rgba(0,0,0,.0001) 100%);
+    background-repeat: repeat-x;
+}
+.arrow-left {
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0%,rgba(0,0,0,.0001) 100%);
+    background-repeat: repeat-x;
+}
+.arrow-right {
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0%,rgba(0,0,0,.0001) 100%);
+    background-repeat: repeat-x;
+}
+.col-md-3.col-sm-6.col-xs-12 {
+	padding: 0;
+}
+
+.col-md-3.col-sm-6.col-xs-12:nth-child(4) {
+	margin: 0;
+}

@@ -1,0 +1,55 @@
+.software {
+    margin-top: 135px;
+    .projects {
+      float: right;
+      width: 45%;
+      margin-top: 20px;
+    }
+
+    .intro {
+      float: left;
+      width: 50%;
+      padding: 4px 20px 5% 0;
+      p:nth-child(2) {
+        padding-top: 20px;
+      }
+    }
+    .animatedParent {
+        h2 {
+          padding-top: 28px;
+        }
+    }
+    p.typo {
+      font-size: 20vw;
+      margin: 10px 0 0 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 30em;
+      animation: type 4s steps(60, end); 
+    }
+
+
+  // span{
+  //   animation: blink 1s infinite;
+  // }
+
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+
+  @keyframes type2{
+    0%{ opacity: 0; }
+    50%{ opacity: 0; }
+    100%{ opacity: 1; } 
+  } 
+
+
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
+  ::selection{
+    background: black;
+  }
+}
+

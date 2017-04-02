@@ -1,0 +1,219 @@
+.alert{
+	display: none;
+	padding: 8px 35px 8px 14px;
+	margin: 20px 0;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/* active state */
+	input:focus ~ label, input:valid ~ label, 
+	textarea:focus ~ label, textarea:valid ~ label{
+	  top:-20px ;
+	}
+/* CONTACT */
+.contact {
+	margin-top: 115px;
+	nav.header {
+		z-index: 11;
+    	position: absolute;
+	}
+	label {
+		    top: 9px;
+    		position: absolute;
+	}
+	.col-md-6.pull-right label {
+		
+	}
+	.content {
+		margin: -181px auto 20px;
+	}
+	.google-maps {
+        overflow: hidden;
+	    width: 100%;
+	    height: 402px;
+	    position: absolute;
+	    top: 37px;
+    }
+    .google-maps iframe {
+        left: 0;
+	    top: -19px;
+	    height: 287px;
+	    width: 100%;
+	    position: absolute;
+	    z-index: 1;
+    }
+    h1 {
+    	text-align: center;
+	    font-weight: bolder !important;
+	    font-size: 2.5rem !important;
+	    padding-top: 3px;
+	    padding-bottom: 42px;	
+    	color: #000;
+    }
+
+    .form {
+    	background-color: #fff;
+	    z-index: 99999;
+	    position: relative;
+	    max-width: 1024px;
+	    width: 95%;
+	    margin-top: 291px;
+	    height: auto;
+	    box-shadow: 2px 2px 5px #888888;
+    }
+    form {
+    	width: 77%;
+    	margin: 0 auto;
+    	padding-top: 23px;
+    }
+
+    img.contactImg {
+    	margin: 50px auto;
+    	max-width: 112%;
+    }
+    .modal-content {
+		margin-top: 44% ;
+	}	
+/* form starting stylings ------------------------------- */
+* { box-sizing:border-box; }
+
+.group 			  { 
+  position:relative; 
+  margin-bottom: 35px;
+  padding-bottom: 23px; 
+}
+
+.col-md-12 input {
+	width: 100%;
+} 
+
+input 				{
+    padding: 10px 0px 10px 5px;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #757575;
+    margin: 0;
+}
+textarea {
+	border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    outline: none;
+    overflow: hidden;
+}
+#contact_form {
+	.modal {
+		display: block;
+		top: -100px;
+	}
+}
+.message {
+	margin-top: 20px;
+	textarea {
+		padding-top: 8px;
+	}
+}
+textarea:focus {
+	border: none;
+}
+input:focus 		{ outline:none; border: none; }
+
+
+ input[type="submit"], .send, .submitForm {
+ 	border: 1px solid #000;
+ 	width: 200px;
+ 	background-color: #fff;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 2px 2px 5px #888888;
+    &:hover {
+        box-shadow: none;
+    }
+ }
+
+	/* BOTTOM BARS ================================= */
+	.bar 	{ 
+		position:relative; 
+		display:block; 
+		width: auto;
+	    left: 3px; 
+	    } 
+	.bar:before, .bar:after 	{
+	  content:'';
+	  height:2px; 
+	  width:0;
+	  bottom:1px; 
+	  position:absolute;
+	  background:#979154; 
+	  transition:0.2s ease all; 
+	  -moz-transition:0.2s ease all; 
+	  -webkit-transition:0.2s ease all;
+	}
+	.bar:before {
+	  left:50%;
+	}
+	.bar:after {
+	  right:50%; 
+	}
+
+	/* active state */
+	input:focus ~ .bar:before, input:focus ~ .bar:after,
+	textarea:focus ~ .bar:before, textarea:focus ~ .bar:after  {
+	  width: 48%;
+	}
+
+	/* HIGHLIGHTER ================================== */
+	.highlight {
+	  position:absolute;
+	  height:60%; 
+	  width:100px; 
+	  top:25%; 
+	  left:0;
+	  pointer-events:none;
+	  opacity:0.5;
+	}
+
+	/* active state */
+	input:focus ~ .highlight, textarea:focus ~ .highlight {
+	  -webkit-animation:inputHighlighter 0.3s ease;
+	  -moz-animation:inputHighlighter 0.3s ease;
+	  animation:inputHighlighter 0.3s ease;
+	}
+
+	/* ANIMATIONS ================ */
+	@-webkit-keyframes inputHighlighter {
+		from { background:#5264AE; }
+	  to 	{ width:0; background:transparent; }
+	}
+	@-moz-keyframes inputHighlighter {
+		from { background:#5264AE; }
+	  to 	{ width:0; background:transparent; }
+	}
+	@keyframes inputHighlighter {
+		from { background:#5264AE; }
+	  to 	{ width:0; background:transparent; }
+	}
+
+}
+.map {
+	position: absolute;
+    top: 82px;
+    width: 100%;
+    min-height: 184px;
+}
+
+.map.mobile {
+	min-height: 175px;
+}
+.place-card.place-card-medium, .gm-style .place-card-large {
+	display: none;
+}

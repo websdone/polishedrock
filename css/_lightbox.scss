@@ -1,0 +1,43 @@
+.ekko-lightbox-nav-overlay a {
+    opacity: 1 !important;
+    span {
+            padding: 0 7px !important;
+    }
+}
+
+.modal.in .modal-dialog {
+	    margin-top: 199px;
+}
+.hardware .accordion-body  {
+    img {
+        max-width: 100px;
+        margin: 14px 8px 0 0;
+    }
+}
+.close {
+    right: 21px;
+    top: 12px !important;
+    font-size: 3.5rem !important;
+    font-weight: normal !important;
+    line-height: 1;
+    color: #000 !important;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 1 !important;
+    position: absolute;
+    filter: alpha(opacity=20);
+    outline: none;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    z-index: 999999;
+}
+.modal-header {
+    border: none !important;
+}
+.ekko-lightbox-nav-overlay a  {
+    text-decoration: none;
+}

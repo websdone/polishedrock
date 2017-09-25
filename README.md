@@ -6,4 +6,4 @@ http://polishedrockltd.co.uk/ business website to show products for sale and pro
 
 PHP CMS so they can upload and manage all products
 
-Developed with PHP, jQuery, SASS, css3-animate.js and CSS transitions for animations, HTML 5 for background videos
+Developed with PHP, jQuery, SASS, css3-animate.js and CSS transitions for animations

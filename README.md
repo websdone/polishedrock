@@ -1,6 +1,6 @@
 # Polishedrock
 
-Desing and developement by Mariana Godoy Garda
+Designed and developement by Mariana Godoy Garda
 
 http://polishedrockltd.co.uk/ business website to show products for sale and promote their services
 
